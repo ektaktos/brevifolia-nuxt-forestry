@@ -2,11 +2,11 @@
     <header class="header">
         <nav class="nav">
             <NuxtLink to="/">
-                <h1>The Blog Title</h1>
+                <h1>Euphoria vibes 😀</h1>
             </NuxtLink>
             <div>
                 <h1>
-                    <NuxtLink :to="infoRoute">{{ isInfoPage ? "close" : "info" }}</NuxtLink>
+                    <NuxtLink :to="infoRoute">{{ isInfoPage ? "close" : "About" }}</NuxtLink>
                 </h1>
             </div>
         </nav>
